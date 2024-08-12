@@ -129,7 +129,7 @@ textarea:focus {
 }
 
 .capitalize {
-  text-transform: capitalize;
+  
 }
 
 h1,
@@ -143,7 +143,7 @@ h6 {
   margin-top: 0px;
   line-height: 1.5;
   font-weight: 700;
-  text-transform: capitalize;
+  
   margin-bottom: 15px;
 }
 
@@ -1807,7 +1807,7 @@ textarea:focus::placeholder {
   display: inline-block;
   font-size: 18px;
   font-weight: 500;
-  text-transform: capitalize;
+  
   color: var(--common-white);
   background-color: var(--theme-primary);
   line-height: 27px;
@@ -1835,7 +1835,7 @@ textarea:focus::placeholder {
   display: inline-block;
   font-size: 18px;
   font-weight: 400;
-  text-transform: capitalize;
+  
   color: var(--common-white);
   background: linear-gradient(97deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
   line-height: 27px;
@@ -1954,7 +1954,7 @@ textarea:focus::placeholder {
   font-size: 16px;
   font-weight: 500;
   display: inline-block;
-  text-transform: capitalize;
+  
   color: #1a1a1a;
   height: 50px;
   width: 133px;
@@ -2318,7 +2318,7 @@ textarea:focus::placeholder {
 .mobile-menu-wrap .mobile-menu .mean-bar .mean-nav ul li a {
   border: none;
   font-size: 13px;
-  text-transform: capitalize;
+  
   font-weight: 500;
   color: var(--body-text);
   padding: 5px 70px;
@@ -2374,7 +2374,7 @@ textarea:focus::placeholder {
 .bastami-main-menu ul li a {
   display: block;
   font-size: 13px;
-  text-transform: capitalize;
+  
   font-weight: 500;
   line-height: 1;
 }
@@ -2722,7 +2722,7 @@ textarea:focus::placeholder {
 }
 .naycool-parsonal-info-name {
   font-size: 26px;
-  text-transform: capitalize;
+  
   font-weight: 500;
   color: var(--common-black);
   font-family: "Roboto Slab", serif;
@@ -2748,7 +2748,7 @@ textarea:focus::placeholder {
   font-size: 14px;
   display: inline-block;
   font-weight: 500;
-  text-transform: capitalize;
+  
   color: var(--common-black);
   font-family: "Poppins", sans-serif;
   background-color: var(--light-white);
@@ -2886,7 +2886,7 @@ textarea:focus::placeholder {
   display: block;
   font-size: 12px;
   line-height: 18px;
-  text-transform: capitalize;
+  
   font-weight: 400;
   margin-bottom: 3px;
 }
@@ -2895,7 +2895,7 @@ textarea:focus::placeholder {
   line-height: 24px;
   font-weight: 400;
   color: var(--common-black);
-  text-transform: capitalize;
+  
   margin-bottom: 0;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -3262,7 +3262,7 @@ textarea:focus::placeholder {
 .fillter-btn-wrap .fillter-btn {
   font-size: 16px;
   font-weight: 500;
-  text-transform: capitalize;
+  
   display: inline-block;
   padding: 0 18px;
   cursor: pointer;
@@ -3293,12 +3293,12 @@ textarea:focus::placeholder {
   display: block;
   font-size: 12px;
   font-weight: 400;
-  text-transform: capitalize;
+  
 }
 .fillter-item .item-title {
   font-size: 16px;
   font-weight: 500;
-  text-transform: capitalize;
+  
   margin-bottom: 0;
 }
 .fillter-item .item-title:hover {
@@ -3590,7 +3590,7 @@ textarea:focus::placeholder {
   display: inline-block;
   font-size: 14px;
   font-weight: 400;
-  text-transform: capitalize;
+  
   margin-right: 5px;
 }
 .blog-slider-single .blog-meta .blog-cetagory {
@@ -3611,7 +3611,7 @@ textarea:focus::placeholder {
 .blog-slider-single .blog-title {
   font-size: 18px;
   font-weight: 500;
-  text-transform: capitalize;
+  
 }
 .blog-slider-single .blog-title:hover {
   color: var(--theme-primary);
@@ -3853,7 +3853,7 @@ textarea:focus::placeholder {
 .h1-modal-box .modal-dialog .modal-content .modal-body .h1-modal-comment-box button {
   font-size: 14px;
   font-weight: 500;
-  text-transform: capitalize;
+  
   border: none;
   outline: none;
   padding: 8px 20px;
@@ -3909,7 +3909,7 @@ textarea:focus::placeholder {
   font-size: 25px;
   font-weight: 400;
   color: var(--body-text);
-  text-transform: capitalize;
+  
   margin-bottom: 13px;
 }
 .contact-area .contact-title-b {
@@ -3923,7 +3923,7 @@ textarea:focus::placeholder {
   font-size: 16px;
   display: inline-block;
   font-weight: 500;
-  text-transform: capitalize;
+  
   line-height: 1;
 }
 .contact-form .input-box {
@@ -4142,7 +4142,7 @@ textarea:focus::placeholder {
 .breadcrumb-title {
   font-size: 30px;
   font-weight: 400;
-  text-transform: capitalize;
+  
   color: #000;
   line-height: 1.33;
   font-family: "Roboto Slab", serif;
@@ -4197,7 +4197,7 @@ textarea:focus::placeholder {
   display: inline-block;
   font-size: 14px;
   line-height: 21px;
-  text-transform: capitalize;
+  
   color: #44566c;
 }
 
@@ -4286,7 +4286,7 @@ textarea:focus::placeholder {
   font-weight: 400;
   line-height: 24px;
   color: #000;
-  text-transform: capitalize;
+  
   margin-bottom: 0;
 }
 .blog-details-tag .tag-item a {
@@ -4294,7 +4294,7 @@ textarea:focus::placeholder {
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
-  text-transform: capitalize;
+  
   color: #696969;
   background: #f0f5f7;
   border-radius: 4px;
@@ -4341,13 +4341,13 @@ textarea:focus::placeholder {
   font-weight: 500;
   line-height: 24px;
   color: #202124;
-  text-transform: capitalize;
+  
 }
 .blog-details-comment-item .flex .content .bio {
   display: block;
   font-size: 14px;
   font-weight: 400;
-  text-transform: capitalize;
+  
   line-height: 21px;
   color: #696969;
   margin-bottom: 18px;
@@ -4384,7 +4384,7 @@ textarea:focus::placeholder {
   color: #ffc78b;
 }
 .blog-details-comment-box form .input-title {
-  text-transform: capitalize;
+  
   font-weight: 400;
   font-size: 15px;
   line-height: 22px;
@@ -4410,7 +4410,7 @@ textarea:focus::placeholder {
   font-size: 14px;
   font-weight: 400;
   color: #77838f;
-  text-transform: capitalize;
+  
 }
 .blog-details-comment-box form textarea {
   height: 195px;
@@ -4421,7 +4421,7 @@ textarea:focus::placeholder {
   font-size: 18px;
   line-height: 26px;
   text-align: center;
-  text-transform: capitalize;
+  
   color: #1a1a1a;
   background: #f8fbfb;
   border: 2px solid #44566c;
@@ -4459,7 +4459,7 @@ textarea:focus::placeholder {
   font-weight: 500;
   line-height: 27px;
   color: #202124;
-  text-transform: capitalize;
+  
   margin-bottom: 10px;
 }
 
@@ -4495,7 +4495,7 @@ textarea:focus::placeholder {
   font-weight: 400;
   line-height: 22px;
   color: #696969;
-  text-transform: capitalize;
+  
 }
 
 .sidebar-category li a {
@@ -4503,7 +4503,7 @@ textarea:focus::placeholder {
   font-weight: 400;
   line-height: 35px;
   color: #696969;
-  text-transform: capitalize;
+  
   position: relative;
   padding-left: 15px;
   transition: 0.3s;
@@ -4552,14 +4552,14 @@ textarea:focus::placeholder {
   display: block;
   font-weight: 400;
   font-size: 14px;
-  text-transform: capitalize;
+  
   color: #696969;
   line-height: 21px;
 }
 .recent-post-item .content .title {
   font-size: 15px;
   font-weight: 400;
-  text-transform: capitalize;
+  
   line-height: 22px;
   color: #202124;
   margin-bottom: 3px;
