@@ -1,8 +1,6 @@
 <!Doctype html>
 <html class="no-js" lang="zxx">
 
-
-<!-- Mirrored from naycool-bootstrap.ibthemespro.com/naycool-template/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 09 Aug 2024 17:29:37 GMT -->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -354,6 +352,15 @@
                     </div>
                 </div>
                 <!-- main-menu-end -->
+                    <!-- Instagram Feed -->
+                <div class="section-wrapper pl-60 pr-60">
+                    <div class="naycool-section-title-wrap mb-30">
+                        <h3 class="section-title">Instagram Feed</h3>
+                    </div>
+                    <div id="instagram-feed" class="row"></div>
+                </div>
+
+                
             </div>
         </div>
 
@@ -369,8 +376,36 @@
     <script src="assets/js/jquery.modal.min.js"></script>
     <script src="assets/js/appear.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script>
+        const userId = '1301833757483488';
+        const accessToken = 'e29d4abee3bb90af4fd47310f23ab6c5';
+        const feedContainer = document.getElementById('instagram-feed');
+    
+        fetch(`https://graph.instagram.com/${userId}/media?fields=id,caption,media_type,media_url,permalink,thumbnail_url,timestamp&access_token=${accessToken}`)
+            .then(response => response.json())
+            .then(data => {
+                data.data.forEach(post => {
+                    const postElement = document.createElement('div');
+                    postElement.classList.add('col-xxl-4', 'col-xl-6', 'col-lg-6', 'mb-4');
+                    
+                    let postContent;
+                    if (post.media_type === 'IMAGE' || post.media_type === 'CAROUSEL_ALBUM') {
+                        postContent = `<a href="${post.permalink}" target="_blank">
+                                        <img src="${post.media_url}" alt="${post.caption || 'Instagram Image'}" class="img-fluid">
+                                       </a>`;
+                    } else if (post.media_type === 'VIDEO') {
+                        postContent = `<a href="${post.permalink}" target="_blank">
+                                        <video src="${post.media_url}" controls class="img-fluid"></video>
+                                       </a>`;
+                    }
+    
+                    postElement.innerHTML = postContent;
+                    feedContainer.appendChild(postElement);
+                });
+            })
+            .catch(error => console.error('Error fetching Instagram posts:', error));
+    </script>
+    
 </body>
 
-
-<!-- Mirrored from naycool-bootstrap.ibthemespro.com/naycool-template/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 09 Aug 2024 17:29:48 GMT -->
 </html>
