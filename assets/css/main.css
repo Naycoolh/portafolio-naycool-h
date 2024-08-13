@@ -2654,8 +2654,9 @@ textarea:focus::placeholder {
   padding: 40px 30px;
   margin-left: -100px;
   position: sticky;
-  top: 100px;
+  top: -45px;
 }
+
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
   .naycool-parsonal-info-area {
     width: 340px;
@@ -2692,6 +2693,55 @@ textarea:focus::placeholder {
     padding: 40px 30px;
   }
 }
+
+.naycool-parsonal-info-area-about{
+  width: 400px;
+  border-radius: 20px;
+  background-color: var(--common-white);
+  text-align: center;
+  padding: 40px 30px;
+  margin-left: -100px;
+  position: sticky;
+  top: 100px;
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1599px) {
+  .naycool-parsonal-info-area-about {
+    width: 340px;
+    margin-left: -40px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .naycool-parsonal-info-area-about {
+    width: 100%;
+    margin-left: 0px;
+    padding: 30px 15px;
+    top: -40px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
+  .naycool-parsonal-info-area-about {
+    width: 100%;
+    margin-left: 0px;
+    margin-bottom: 30px;
+    top: -40px;
+  }
+}
+@media (max-width: 767px) {
+  .naycool-parsonal-info-area-about {
+    width: 100%;
+    margin-left: 0px;
+    margin-bottom: 30px;
+    padding: 40px 20px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .naycool-parsonal-info-area-about {
+    padding: 40px 30px;
+  }
+}
+
 .naycool-parsonal-info-img {
   width: 240px;
   height: 240px;
